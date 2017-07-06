@@ -1,0 +1,8 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:harapeko/styleguide.git",
+  "author": "harapeko <tea.lile.tea@gmail.com>",
+  "license": "MIT"
+}
