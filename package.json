@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:harapeko/styleguide.git",
   "author": "harapeko <tea.lile.tea@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
 }
