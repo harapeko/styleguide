@@ -16,10 +16,11 @@
   "scripts": {
     "all": "yarn css:sass",
     "watch": "echo todo watch css, js, browser-sync",
-    "sass": "yarn run css:sass && yarn run css:postcss",
+    "css": "yarn run css:sass && yarn run css:postcss",
     "css:sass": "node-sass assets/sass/app.sass public/css/app.css --source-map public/css/app.css.map",
     "css:postcss": "postcss -r public/css/app.css -u autoprefixer cssnano",
     "postcss:help": "postcss -h",
+    "js": "echo todo coffee compile",
     "test": "echo test"
   },
   "dependencies": {}
