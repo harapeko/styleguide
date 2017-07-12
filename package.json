@@ -21,6 +21,7 @@
     "css:postcss": "postcss -r public/css/app.css -u autoprefixer cssnano",
     "postcss:help": "postcss -h",
     "js": "echo todo coffee compile",
+    "bs": "echo todo browserSync",
     "test": "echo test"
   },
   "dependencies": {}
