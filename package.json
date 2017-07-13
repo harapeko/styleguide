@@ -7,6 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.12",
     "coffee-loader": "^0.7.3",
     "coffee-script": "^1.12.6",
     "cssnano": "^3.10.0",
@@ -19,13 +20,13 @@
   },
   "scripts": {
     "all": "yarn css:sass",
-    "watch": "echo todo watch css, js, browser-sync",
+    "watch": "echo TODO watch css, js, browser-sync",
     "css": "yarn run css:sass && yarn run css:postcss",
     "css:sass": "node-sass assets/sass/app.sass public/css/app.css --source-map public/css/app.css.map",
     "css:postcss": "postcss -r public/css/app.css -u autoprefixer cssnano",
     "postcss:help": "postcss -h",
     "js": "yarn run webpack -- assets/js/coffee/*.coffee public/js/bundle.js",
-    "bs": "echo todo browserSync",
+    "bs": "echo TODO browserSync",
     "test": "echo test"
   },
   "dependencies": {}
