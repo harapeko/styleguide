@@ -26,7 +26,7 @@
     "css:postcss": "postcss -r public/css/app.css -u autoprefixer cssnano",
     "postcss:help": "postcss -h",
     "js": "yarn run webpack -- assets/js/coffee/*.coffee public/js/bundle.js",
-    "bs": "echo TODO browserSync",
+    "bs": "yarn run browser-sync start --config bs-config.js",
     "test": "echo test"
   },
   "dependencies": {}

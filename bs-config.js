@@ -19,7 +19,9 @@ module.exports = {
             "port": 8080
         }
     },
-    "files": false,
+    "files": [
+        'public/**/*',
+    ],
     "watchEvents": [
         "change"
     ],
@@ -52,7 +54,7 @@ module.exports = {
     "cors": false,
     "xip": false,
     "hostnameSuffix": false,
-    "reloadOnRestart": false,
+    "reloadOnRestart": true,
     "notify": true,
     "scrollProportionally": true,
     "scrollThrottle": 0,
