@@ -7,7 +7,11 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "coffee-loader": "^0.7.3",
+    "coffee-script": "^1.12.6",
     "cssnano": "^3.10.0",
+    "expose-loader": "^0.7.3",
+    "jquery": "^3.2.1",
     "node-sass": "^4.5.3",
     "nucleus-styleguide": "^1.1.1",
     "postcss-cli": "^4.1.0",
@@ -20,7 +24,7 @@
     "css:sass": "node-sass assets/sass/app.sass public/css/app.css --source-map public/css/app.css.map",
     "css:postcss": "postcss -r public/css/app.css -u autoprefixer cssnano",
     "postcss:help": "postcss -h",
-    "js": "echo todo coffee compile",
+    "js": "yarn run webpack -- assets/js/coffee/*.coffee public/js/bundle.js",
     "bs": "echo todo browserSync",
     "test": "echo test"
   },
