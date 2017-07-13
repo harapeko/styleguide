@@ -25,9 +25,9 @@
     "css:scss": "node-sass assets/scss/app.scss public/css/app.css --source-map public/css/app.css.map",
     "css:postcss": "postcss -r public/css/app.css -u autoprefixer cssnano",
     "postcss:help": "postcss -h",
-    "styleguide": "yarn run nucleus",
-    "js": "yarn run webpack -- assets/js/coffee/*.coffee public/js/bundle.js",
-    "bs": "yarn run browser-sync start --config bs-config.js",
+    "styleguide": "nucleus",
+    "js": "webpack -- assets/js/coffee/*.coffee public/js/bundle.js",
+    "bs": "browser-sync start --config bs-config.js",
     "test": "echo test"
   },
   "dependencies": {}

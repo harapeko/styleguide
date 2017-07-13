@@ -19,16 +19,14 @@ module.exports = {
             "port": 8080
         }
     },
-    "files": [
-        'public/**/*',
-    ],
+    "files": './public',
     "watchEvents": [
         "change"
     ],
     "watchOptions": {
         "ignoreInitial": true
     },
-    "server": false,
+    "server": "public",
     "proxy": false,
     "port": 3000,
     "middleware": false,
