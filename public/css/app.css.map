@@ -2,8 +2,8 @@
 	"version": 3,
 	"file": "app.css",
 	"sources": [
-		"../../assets/sass/app.sass"
+		"../../assets/scss/app.scss"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI,GAAI"
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI,GACd"
 }
