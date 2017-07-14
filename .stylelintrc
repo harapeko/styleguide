@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "stylelint-rscss/config"
+  ],
+  "rules": {
+    "rscss/class-format": [true, {
+      maxDepth: 8
+    }]
+  }
+}

@@ -19,7 +19,10 @@ module.exports = {
             "port": 8080
         }
     },
-    "files": './public',
+    "files": [
+        "assets/scss",
+        "assets/js/coffee",
+    ],
     "watchEvents": [
         "change"
     ],
@@ -59,7 +62,7 @@ module.exports = {
     "scrollRestoreTechnique": "window.name",
     "scrollElements": [],
     "scrollElementMapping": [],
-    "reloadDelay": 0,
+    "reloadDelay": 6000,
     "reloadDebounce": 0,
     "reloadThrottle": 0,
     "plugins": [],

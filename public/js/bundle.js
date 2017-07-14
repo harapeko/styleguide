@@ -73,6 +73,8 @@ console.log($('body'));
 
 console.log('fuga');
 
+console.log('fuga2');
+
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
