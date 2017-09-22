@@ -1,11 +1,23 @@
-// colors
-$default_color: #000;
+@charset "UTF-8";
 
-body {
-  background: tomato;
-  display: flex;
-}
+// SETTINGS: プリプロセッサで利用するグローバル変数や全体の設定
+@import "_settings.variables";
 
-.fuga {
+// TOOLS: プリプロセッサで利用するmixinやfunctionなど
+// @import "_tools.mixin";
+// @import "_tools.placeholder";
 
-}
+// GENERIC: 基礎スタイル。normalize.css、reset, box-sizingなど
+// @import "_generic.shared";
+
+// ELEMENTS: 要素型セレクタ
+// !!基本的に使用しない!!
+
+// OBJECTS: 装飾を持たない基本骨子なデザインパターン
+// !!今回はスタイルガイドなので不要!!
+
+// COMPONENTS: 装飾を持つデザインパターン
+// sc-(SiteCommon)...サイト共通の小さなパーツ
+
+// TRUMPS: 汎用クラス
+// @import "_trumps";

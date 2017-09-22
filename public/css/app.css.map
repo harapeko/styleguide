@@ -2,8 +2,9 @@
 	"version": 3,
 	"file": "app.css",
 	"sources": [
-		"../../assets/scss/app.scss"
+		"../../assets/scss/app.scss",
+		"../../assets/scss/_settings.variables.scss"
 	],
 	"names": [],
-	"mappings": "AAGA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI,GACd"
+	"mappings": ";ACGA;;;;GAIG;AAGF;;;;IAIG;AAGH;;;;IAIG;AAGH;;;;IAIG;AAGJ;;;;GAIG;AAGF;;;;GAIE;AAOH;;;;GAIG;AAGH;;;;GAIG;AAGH;;;;GAIG;AAMH;;;;GAIG;AAMH;;;;GAIG;AAGH;;;;GAIG;AAGH;;;;GAIG;AAGH;;;;GAIG"
 }

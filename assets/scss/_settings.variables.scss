@@ -1,0 +1,117 @@
+///*------------------------------------*\
+//    #Color
+//\*------------------------------------*/
+/**
+ * テキスト 黒色
+ * @color
+ * @section Color
+ */
+ $color-text: #454545;
+ 
+ /**
+  * テキスト 灰色
+  * @color
+  * @section Color
+  */
+ $color-text-gray: #6e6e6e;
+ 
+ /**
+  * 背景色
+  * @color
+  * @section Color
+  */
+ $color-bg: #e9e9e9;
+ 
+ /**
+  * アクセント色
+  * @color
+  * @section Color
+  */
+ $color-accent: #f44336;
+ 
+/**
+ * 境界線 灰色
+ * @color
+ * @section Color
+ */
+ $color-border: #999;
+
+ /**
+ * 白
+ * @color
+ * @section Color
+ */
+$color-white: #fefefe;
+
+///*------------------------------------*\
+//    #Devices
+//\*------------------------------------*/
+
+/**
+ * モバイル
+ * @nuclide
+ * @section Config > device
+ */
+$mobile: 414px;
+
+/**
+ * タブレット
+ * @nuclide
+ * @section Config > device
+ */
+$tablet: 768px;
+
+/**
+ * デスクトップ
+ * @nuclide
+ * @section Config > device
+ */
+$desktop: 1100px;
+
+///*------------------------------------*\
+//    #Margin
+//\*------------------------------------*/
+/**
+ * 基本的な余白
+ * @nuclide
+ * @section Config > margin
+ */
+ $default-margin: 20px;
+
+ ///*------------------------------------*\
+//    #Z-index
+//\*------------------------------------*/
+/**
+ * 少し大きめ
+ * @nuclide
+ * @section Config > zindex
+ */
+$zi-s: 10;
+
+/**
+ * 大きめ
+ * @nuclide
+ * @section Config > zindex
+ */
+$zi-m: 100;
+
+/**
+ * より大きめ
+ * @nuclide
+ * @section Config > zindex
+ */
+$zi-l: 1000;
+
+/**
+ * 最大
+ * @nuclide
+ * @section Config > zindex
+ */
+$zi-max: 10000;
+
+ ///*------------------------------------*\
+//    #Z-index
+//\*------------------------------------*/
+$font-family-sans-serif: -apple-system, ’Hiragino Kaku Gothic ProN’, ‘游ゴシック’, 'Yu Gothic', ’メイリオ’, meiryo, sans-serif;
+$font-family-serif: "Hiragino Mincho ProN", "HG明朝E", Meiryo, serif !default;
+$font-family-code: 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
