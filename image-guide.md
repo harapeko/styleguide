@@ -75,3 +75,6 @@ root
 `png` には [zopfli](https://github.com/google/zopfli) を使っています。
 
 `find ./ -iname "*.png" -exec zopflipng -m -y '{}' '{}' \;`
+
+## ダミー画像
+[Placehold.jp](https://placehold.jp/)
