@@ -4,7 +4,7 @@
 @import "_settings.variables";
 
 // TOOLS: プリプロセッサで利用するmixinやfunctionなど
-// @import "_tools.mixin";
+@import "_tools.mixin";
 // @import "_tools.placeholder";
 
 // GENERIC: 基礎スタイル。normalize.css、reset, box-sizingなど

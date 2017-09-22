@@ -1,0 +1,98 @@
+/**
+ * SP用メディアクエリ(基本的に使わない)
+ *
+ * @mixin
+ * @section MediaQuery
+ * @example
+ *  @include sp() {…};
+ */
+@mixin sp() {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+
+/**
+ * Tablet用メディアクエリ
+ *
+ * @mixin
+ * @section MediaQuery
+ * @example
+ *  @include sp() {…};
+ */
+@mixin tab() {
+  @media screen and (min-width: $mobile + 1px) {
+    @content;
+  }
+}
+
+/**
+ * PC用メディアクエリ
+ *
+ * @mixin
+ * @section MediaQuery
+ * @example
+ *  @include sp() {…};
+ */
+@mixin tab() {
+  @media screen and (min-width: $tablet + 1px) {
+    @content;
+  }
+}
+
+/**
+ * SEE: http://cssmojo.com/the-very-latest-clearfix-reloaded/
+ *
+ * @mixin
+ * @section Clearing
+ * @param $important 初期値false
+ * @example
+ *  @include clearfix();
+ *  @include clearfix(important);
+ */
+ @mixin clearfix($important: false) {
+  @if ($important == "important") {
+    $important: unquote("!important");
+  } @else {
+    $important: null;
+  }
+  &:after {
+    content: "" $important;
+    display: block $important;
+    clear: both $important;
+  }
+}
+
+/**
+ * triangle 三角つくる
+ * @mixin
+ * @section Triangle
+ * @param $dir 方向up,down,left,right
+ * @param $base 底辺
+ * @param $height 高さ
+ * @param $color 色
+ * @example
+ *  @include triangle(up, 20px, 50px, red);
+ *  @include triangle(down, 40px, 20px, red);
+ *  @include triangle(left, 50px, 20px, red);
+ *  @include triangle(right, 100px, 20px, red);
+ */
+ @mixin triangle($dir, $base, $height, $color){
+  @if $dir == up{
+    border-left: $base/2 solid transparent;
+    border-right: $base/2 solid transparent;
+    border-bottom: $height solid $color;
+  }@else if $dir == down{
+    border-left: $base/2 solid transparent;
+    border-right: $base/2 solid transparent;
+    border-top: $height solid $color;
+  }@else if $dir == left{
+    border-top: $base/2 solid transparent;
+    border-bottom: $base/2 solid transparent;
+    border-right: $height solid $color;
+  }@else if $dir == right{
+    border-top: $base/2 solid transparent;
+    border-bottom: $base/2 solid transparent;
+    border-left: $height solid $color;
+  }
+}
