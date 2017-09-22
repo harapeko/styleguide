@@ -1,9 +1,9 @@
 {
     "title": "Styleguide",
     "files": ["assets/scss/*.scss"],
-    "target": "public",
-    "css": "/public/css/app.css",
-    "scripts": ["/public/js/app.js"],
+    "target": "docs",
+    "css": "/docs/css/app.css",
+    "scripts": ["/docs/js/app.js"],
     "namespace": "page",
     "verbose": 3,
     "counterCSS": null,

@@ -29,7 +29,7 @@ module.exports = {
     "watchOptions": {
         "ignoreInitial": true
     },
-    "server": "public",
+    "server": "docs",
     "proxy": false,
     "port": 3000,
     "middleware": false,
