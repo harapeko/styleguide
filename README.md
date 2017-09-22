@@ -12,3 +12,6 @@ yarn run bs|browserSyncを実行する
 
 # CSSクラス命名ガイド
 [CSSクラス命名ガイド](./css-class-naming-guide.md)
+
+# 画像ガイド
+[画像ガイド](./image-guide.md)
