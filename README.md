@@ -7,5 +7,8 @@ yarn run css|sassをコンパイルする(+autoprefixir、cssnano)
 yarn run js|coffeescriptをコンパイルする
 yarn run bs|browserSyncを実行する
 
-# CSSクラス命名 一覧
-[CSSクラス命名 一覧](./css-class-naming.md)
+# CSSコーディングガイド
+[CSSコーディングガイド](./css-cording-guide.md)
+
+# CSSクラス命名ガイド
+[CSSクラス命名ガイド](./css-class-naming-guide.md)
