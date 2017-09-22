@@ -227,3 +227,6 @@
 `toggle` | トグルする
 `bind` | 連動する
 `follow` | 追従
+
+## 参考資料
+[Semantic UI](https://semantic-ui.com/introduction/getting-started.html)
