@@ -1,0 +1,124 @@
+///*------------------------------------*\
+//    #button
+//\*------------------------------------*/
+
+/**
+ * 塗り潰しボタン。
+ * NOTE：経験上、前後に何か入れたる事が多いので、テキストは必ずネストする。
+ * @atom sc-fillbutton
+ * @section Button
+ * @modifiers
+ *  .-disabled 非活性状態
+ * @markup
+ *  <p>通常</p>
+ *  <div class="sc-fillbutton">
+ *    <div class="title">@{lipsum:1:words}</div>
+ *  </div>
+ *
+ *  <p>前後にアイコンあり</p>
+ *  <div class="sc-fillbutton">
+ *    <div class="prefix"><img src="@{image:15:15}"></div>
+ *    <div class="title">@{lipsum:1:words}</div>
+ *    <div class="suffix"><img src="@{image:15:15}"></div>
+ *  </div>
+ *
+ *  <p>非活性状態</p>
+ *  <div class="sc-fillbutton -disabled">
+ *    <div class="title">@{lipsum:1:words}</div>
+ *  </div>
+ */
+.sc-fillbutton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.5em;
+  padding: .5em 1em;
+  background-color: $color-primary;
+  color: $color-white;
+  cursor: pointer;
+
+  // hover
+  &:hover {
+    opacity: .8;
+  }
+
+  &.-disabled {
+    background-color: $color-disabled;
+    pointer-events: none;
+  }
+
+  // タイトル
+  >.title {
+    font-size: 1em;
+  }
+
+  // prefix
+  >.prefix {
+    margin-right: 1em;
+  }
+
+  // suffix
+  >.suffix {
+    margin-left: 1em;
+  }
+}
+
+
+ /**
+ * 枠線ボタン。
+ * NOTE：経験上、前後に何か入れたる事が多いので、テキストは必ずネストする。
+ * @atom sc-borderbutton
+ * @section Button
+ * @modifiers
+ *  .-disabled 非活性状態
+ * @markup
+ *  <p>通常</p>
+ *  <div class="sc-borderbutton">
+ *    <div class="title">@{lipsum:1:words}</div>
+ *  </div>
+ *
+ *  <p>前後にアイコンあり</p>
+ *  <div class="sc-borderbutton">
+ *    <div class="prefix"><img src="@{image:15:15}"></div>
+ *    <div class="title">@{lipsum:1:words}</div>
+ *    <div class="suffix"><img src="@{image:15:15}"></div>
+ *  </div>
+ *
+ *  <p>非活性状態</p>
+ *  <div class="sc-borderbutton -disabled">
+ *    <div class="title">@{lipsum:1:words}</div>
+ *  </div>
+ */
+.sc-borderbutton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.5em;
+  padding: .5em 1em;
+  border: 1px solid $color-border;
+  cursor: pointer;
+
+  // hover
+  &:hover {
+    opacity: .8;
+  }
+
+  &.-disabled {
+    background-color: $color-disabled;
+    color: $color-text-gray;
+    pointer-events: none;
+  }
+
+  // タイトル
+  >.title {
+    font-size: 1em;
+  }
+
+  // prefix
+  >.prefix {
+    margin-right: 1em;
+  }
+
+  // suffix
+  >.suffix {
+    margin-left: 1em;
+  }
+}
