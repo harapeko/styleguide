@@ -19,7 +19,7 @@
     "stylelint": "7.13.0",
     "stylelint-rscss": "0.4.0",
     "watch": "1.0.2",
-    "webpack": "3.0.0"
+    "webpack": "3.11.0"
   },
   "scripts": {
     "cs": "yarn run css:scss && yarn run css:postcss",
