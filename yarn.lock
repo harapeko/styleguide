@@ -226,6 +226,17 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+autoprefixer@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-7.1.1.tgz#97bc854c7d0b979f8d6489de547a0d17fb307f6d"
+  dependencies:
+    browserslist "^2.1.3"
+    caniuse-lite "^1.0.30000670"
+    normalize-range "^0.1.2"
+    num2fraction "^1.2.2"
+    postcss "^6.0.1"
+    postcss-value-parser "^3.2.3"
+
 autoprefixer@^6.0.0, autoprefixer@^6.3.1:
   version "6.7.7"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.7.7.tgz#1dbd1c835658e35ce3f9984099db00585c782014"
@@ -235,17 +246,6 @@ autoprefixer@^6.0.0, autoprefixer@^6.3.1:
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
     postcss "^5.2.16"
-    postcss-value-parser "^3.2.3"
-
-autoprefixer@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-7.1.1.tgz#97bc854c7d0b979f8d6489de547a0d17fb307f6d"
-  dependencies:
-    browserslist "^2.1.3"
-    caniuse-lite "^1.0.30000670"
-    normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
-    postcss "^6.0.1"
     postcss-value-parser "^3.2.3"
 
 aws-sign2@~0.6.0:
@@ -475,7 +475,7 @@ browser-sync-ui@0.6.3:
     stream-throttle "^0.1.3"
     weinre "^2.0.0-pre-I0Z7U9OV"
 
-browser-sync@^2.18.12:
+browser-sync@2.18.12:
   version "2.18.12"
   resolved "https://registry.yarnpkg.com/browser-sync/-/browser-sync-2.18.12.tgz#bbaa0a17a961e2b5f0a8e760e695027186664779"
   dependencies:
@@ -777,13 +777,13 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-coffee-loader@^0.8.0:
+coffee-loader@0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/coffee-loader/-/coffee-loader-0.8.0.tgz#ec48e7327da8e3a99047a99d9bdcfcac12df3694"
   dependencies:
     loader-utils "^1.0.2"
 
-coffeescript@^2.0.0:
+coffeescript@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/coffeescript/-/coffeescript-2.0.0.tgz#61bcc70989cc18a0aab6b3d8be110d2ec7743c9a"
   optionalDependencies:
@@ -1036,7 +1036,7 @@ css-tokenize@^1.0.1:
     inherits "^2.0.1"
     readable-stream "^1.0.33"
 
-cssnano@^3.10.0:
+cssnano@3.10.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-3.10.0.tgz#4f38f6cea2b9b17fa01490f23f1dc68ea65c1c38"
   dependencies:
@@ -1500,7 +1500,7 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-expose-loader@^0.7.3:
+expose-loader@0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/expose-loader/-/expose-loader-0.7.3.tgz#35fbd3659789e4faa81f59de8b7e9fc39e466d51"
 
@@ -2208,7 +2208,7 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-jquery@^3.2.1:
+jquery@3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
@@ -2692,7 +2692,7 @@ node-pre-gyp@^0.6.36:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@^4.5.3:
+node-sass@4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.5.3.tgz#d09c9d1179641239d1b97ffc6231fdcec53e1568"
   dependencies:
@@ -2779,7 +2779,7 @@ npm-run-path@^2.0.0:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-nucleus-styleguide@^1.1.1:
+nucleus-styleguide@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/nucleus-styleguide/-/nucleus-styleguide-1.1.1.tgz#41b0e298e36735083341d06b68036c339fd4eb65"
   dependencies:
@@ -3099,7 +3099,7 @@ postcss-calc@^5.2.0:
     postcss-message-helpers "^2.0.0"
     reduce-css-calc "^1.2.6"
 
-postcss-cli@^4.1.0:
+postcss-cli@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-4.1.0.tgz#8f6803678acd7a4f21483f1a4039136f6e1c214f"
   dependencies:
@@ -4237,14 +4237,14 @@ stylehacks@^2.3.2:
     text-table "^0.2.0"
     write-file-stdout "0.0.2"
 
-stylelint-rscss@^0.4.0:
+stylelint-rscss@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/stylelint-rscss/-/stylelint-rscss-0.4.0.tgz#ea77c478e1c703dbda878c00f53bbc002b2d07b7"
   dependencies:
     postcss-resolve-nested-selector "0.1.1"
     postcss-selector-parser "2.2.1"
 
-stylelint@^7.13.0:
+stylelint@7.13.0:
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.13.0.tgz#111f97b6da72e775c80800d6bb6f5f869997785d"
   dependencies:
@@ -4555,7 +4555,7 @@ void-elements@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
 
-watch@^1.0.2:
+watch@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/watch/-/watch-1.0.2.tgz#340a717bde765726fa0aa07d721e0147a551df0c"
   dependencies:
@@ -4577,7 +4577,7 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.0.0:
+webpack@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.0.0.tgz#ee9bcebf21247f7153cb410168cab45e3a59d4d7"
   dependencies:
