@@ -6,7 +6,7 @@
   "author": "harapeko <tea.lile.tea@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "8.1.0",
+    "autoprefixer": "8.6.5",
     "browser-sync": "2.23.6",
     "coffee-loader": "3.0.0",
     "coffeescript": "2.2.3",
