@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "8.6.5",
-    "browser-sync": "2.23.6",
+    "browser-sync": "2.27.4",
     "coffee-loader": "3.0.0",
     "coffeescript": "2.5.1",
     "cssnano": "3.10.0",
