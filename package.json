@@ -9,7 +9,7 @@
     "autoprefixer": "8.6.5",
     "browser-sync": "2.23.6",
     "coffee-loader": "3.0.0",
-    "coffeescript": "2.2.3",
+    "coffeescript": "2.5.1",
     "cssnano": "3.10.0",
     "expose-loader": "3.0.0",
     "jquery": "3.3.1",
