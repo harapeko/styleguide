@@ -1063,10 +1063,10 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-coffee-loader@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/coffee-loader/-/coffee-loader-3.0.0.tgz#c81821c10e2e5625aa5c78e8d18c30704f2b8a7e"
-  integrity sha512-2UPQNXfMAt4RmI/K9VxnLyrXdYdHPHQuEFiGcb70pTsVPmrV9M6Xg3p9ub7t1ettZZqvXUujjHozp22uTfLkzg==
+coffee-loader@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/coffee-loader/-/coffee-loader-5.0.0.tgz#376de71ea3dc648a9c4cac5b02fbadb7c19c8e6e"
+  integrity sha512-gUIfnuyjVEkjuugx6uRHHhnqmjqsL5dlhYgvhAUla25EoQhI57IFBQvsHvJHtBv5BMB2IzTKezDU2SrZkEiPdQ==
 
 coffeescript@2.5.1:
   version "2.5.1"
