@@ -1706,10 +1706,10 @@ exit-hook@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
 
-expose-loader@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/expose-loader/-/expose-loader-3.0.0.tgz#d6fe52efea6a957b88fe31c716a42e1b127fd225"
-  integrity sha512-X7ncrzmiQbJHOyLwuymECHk4NYvoPFwnsINMYFaRrm4fxuxR59hV1v65bho3TpIoWieP8WZmhz6micKny8orWg==
+expose-loader@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/expose-loader/-/expose-loader-5.0.1.tgz#ee424d6474ec581abeec2699ad14e70a55dd8e48"
+  integrity sha512-5YPZuszN/eWND/B+xuq5nIpb/l5TV1HYmdO6SubYtHv+HenVw9/6bn33Mm5reY8DNid7AVtbARvyUD34edfCtg==
 
 extend@^3.0.0:
   version "3.0.1"
