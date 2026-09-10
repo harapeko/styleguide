@@ -10,7 +10,7 @@
     "browser-sync": "2.27.4",
     "coffee-loader": "3.0.0",
     "coffeescript": "2.5.1",
-    "cssnano": "5.0.6",
+    "cssnano": "5.1.15",
     "expose-loader": "3.0.0",
     "jquery": "3.6.0",
     "node-sass": "6.0.1",
